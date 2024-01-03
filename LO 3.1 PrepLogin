@@ -1,0 +1,21 @@
+# Event: 3rd Year CBA Code
+# Date: 
+# Author: 
+# eMail: 
+# Purpose: Login screen
+# 
+
+name = input("enter a Name ")
+pwrd = input("enter a Password ")
+
+login = 'false'
+
+if name == 'Mary' and pwrd == 'swordfish':
+  print('Access Granted')
+  login = 'true'
+if name != 'Mary' or pwrd != 'swordfish':
+  print('Access Denied')
+
+print(login)
+if login:
+  
