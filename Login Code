@@ -1,0 +1,99 @@
+# Event: 3rd Year CBA Code
+# Date: 
+# Author: Peter Barry
+# eMail: 
+# Purpose: Login screen which validates a username and a password
+# 
+
+input_user=input("Enter a username: ")
+input_pwrd=input("Enter a password: ")
+stored_user = "Mary"
+stored_pwrd = "swordfish"
+
+  
+if input_user == stored_user and input_pwrd == stored_pwrd:
+  print("Success")
+if input_user != stored_user or input_pwrd != stored_pwrd:
+  print('Access Denied')
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+username = input("Enter Username ")
+pwrd = input("Enter Password ")
+
+name = "Peter"
+Password = "Barry"
+
+if username == name:
+  if pwrd == Password:
+    print("Correct username and Password")
+    login=True
+  else:
+    print("Invalid Username OR Password")
+else:
+  print("invalid UserName andOR Passwo")
+    
+
+
+
+
+
+
+
+
+
+
+
+name = input("enter a Name ")
+pwrd = input("enter a Password ")
+login = False
+if name != 'Mary' or pwrd != 'swordfish':
+  print('Access Denied')
+
+if name == 'Mary' and pwrd == 'swordfish':
+  print('Access Granted')
+  login = True
+
+###############################################
+while login == True:
+
+  choice = int(input ("Please select operation -\n"
+     "1. Add\n" 
+      "2. Subtract\n"
+      "5. Quit\n"))
+  if choice == 5:
+    login = False
+    print("Byeeee")
+
+  #print("Please select operation -\n"
+   #	 "1. Add\n" 
+    #  "2. Subtract\n"
+     # "5. Quit\n") 
+
+
+
+
+
+
+
+
+
+
+login = 'false'
+if name == 'Mary' and pwrd == 'swordfish':
+  print('Access Granted')
+  login = 'true'
+if name != 'Mary' or pwrd != 'swordfish':
+  print('Access Denied')
+"""
