@@ -1,0 +1,38 @@
+# Event: 3rd Year CBA Code prep
+# Date: Sept21
+# Author:
+# Purpose: Add 2 numbers and print result
+def add(num1,num2):
+  return (num1 + num2)
+def subtract(num1,num2):
+  return(num1 - num2)
+def mult(num1,num2):
+  return(num1 * num2)
+def divide(num1,num2):
+  return(num1/num2)
+
+userNum1 = int(input("Enter 1st Number "))
+userNum2 = int(input("Enter 2nd Number "))
+
+# add line of code to take in userNum2 from the screen
+
+
+outputNum = add(userNum1, userNum2)
+outputNum2 = subtract(userNum1,userNum2)
+outputNum3 = mult(userNum1, userNum2)
+outputNum4 = divide(userNum1,userNum2)
+
+#new variable here call it outputnum2
+#new function call here
+# Output the returned result as part of a sentence.
+print(outputNum)
+print(outputNum2)
+print(outputNum3)
+print(outputNum4)
+
+# new print statement needed here
+
+
+
+
+
