@@ -1,0 +1,55 @@
+print("\t|-------------------------------|")
+print("\t|\t LCCS BANK LIMITED\t\t\t|")
+print("\t|\t ATM Main Menu\t\t\t\t|")
+print("\t|\t\t\t\t\t\t\t\t|")
+print("\t|\t1. ADD\t\t\t\t\t\t|")
+print("\t|\t2. Subtract\t\t\t\t\t|")
+print("\t|\t3. Multiply\t\t\t\t\t|")
+print("\t|\t4. Divide\t\t\t\t\t|")
+print("\t|\t\t\t\t\t\t\t\t|")
+print("\t|\t7. Exit\t\t\t\t\t\t|")
+print("\t|-------------------------------|")
+print("\t|\t\t\t\t\t\t\t\t|")
+print("\t| CHOOSE AN OPTION >> \t\t\t|")
+print("\t|\t\t\t\t\t\t\t\t|")
+print("\t|-------------------------------|")
+print("")
+
+
+
+def add(num1,num2):
+ return(num1 + num2)
+def subtract(num1,num2):
+ return(num1 - num2)
+def multiply(num1,num2):
+ return(num1 * num2)
+def divide(num1,num2):
+ return(num1 / num2)
+
+# The user is asked to input two numbers.  These numbers will be passed as arguments into one of the functions.
+userNum1 = int(input("Enter a number "))
+userNum2 = int(input("Enter another number "))
+# The user is asked to input 1 to add, 2 to subtract etc.
+choice = int(input("Enter 1 to add, 2 to subtract,"))
+
+# If they input 1, call the ‘add’ function, input 2 calls the ‘subtract’ function etc
+if choice == 1:
+  print("add")
+  outputNum = add(userNum1, userNum2)
+  print(outputNum)
+elif choice == 2:
+  print("subtract")
+  outputNum = subtract(userNum1, userNum2)
+  print(outputNum)
+elif choice == 3:
+  print("multiply")
+  outputNum = multiply(userNum1, userNum2)
+  print(outputNum)
+elif choice == 4:
+  print("Divide")
+  outputNum = divide(userNum1, userNum2)
+  print(outputNum)
+else:
+  print("Idiot you made wrong choice")
+# Output the returned result as part of a sentence.
+
