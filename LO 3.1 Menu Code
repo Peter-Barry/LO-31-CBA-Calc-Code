@@ -1,0 +1,21 @@
+# Event:CBA 2024
+# Date: May 2018
+# Author: Joe English, PDST
+# eMail: computerscience@pdst.ie
+# Purpose: This code displays an ATM menu
+print("\t|-------------------------------|")
+print("\t|\t LCCS BANK LIMITED\t\t\t|")
+print("\t|\t ATM Main Menu\t\t\t\t|")
+print("\t|\t\t\t\t\t\t\t\t|")
+print("\t|\t1. ADD\t\t\t\t\t\t|")
+print("\t|\t2. Subtract\t\t\t\t\t|")
+print("\t|\t3. Multiply\t\t\t\t\t|")
+print("\t|\t4. Divide\t\t\t\t\t|")
+print("\t|\t\t\t\t\t\t\t\t|")
+print("\t|\t7. Exit\t\t\t\t\t\t|")
+print("\t|-------------------------------|")
+print("\t|\t\t\t\t\t\t\t\t|")
+print("\t| CHOOSE AN OPTION >> \t\t\t|")
+print("\t|\t\t\t\t\t\t\t\t|")
+print("\t|-------------------------------|")
+print("")
